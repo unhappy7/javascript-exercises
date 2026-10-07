@@ -1,3 +1,5 @@
+const { f } = require("../04_mathEquations/mathEquations");
+
 /*
  First name: Carlos
  Last name: Stevenson
@@ -6,9 +8,14 @@
 
  The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
 */
-
+let firstName = "Carlos";
+let lastName = "Stevenson";
+let thisYear = 1965;
+let birthYear = 1947;
+let age = thisYear-birthYear
+let fullName = firstName+" "+lastName
 // Add your code right below, good luck!
-
+let greeting = `Hello! My name is ${fullName} and I am ${age} years old.`
 
 
 
